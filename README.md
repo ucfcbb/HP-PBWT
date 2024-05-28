@@ -2,7 +2,9 @@
 Haplotype-based parallel PBWT.
 Contact Author: Kecong Tang (kecong.tang@ucf.edu)
 
-HP-PBWT is a tool to parallel PBWT's all vs all L-Long Matches and Set-Maximal Matches by dividing the haplotype dimension. More detailed information will be provided later.
+HP-PBWT is a tool to parallel Durbin's PBWT's all vs all L-Long Matches and Set-Maximal Matches by dividing the haplotype dimension. More detailed information will be provided later.
+
+Durbin's BPWT can be found at https://github.com/richarddurbin/pbwt.
 
 A quick demonstration can be found at Benchmark_Bin/ 
 
