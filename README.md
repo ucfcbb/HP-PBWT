@@ -8,7 +8,7 @@ A quick demonstration can be found at Benchmark_Bin/
 
 Windows executable files for benchmark purposes can be found in Benchmark_Bin/ 
 
-Windows executable files for regular applications can be found in Benchmark_Bin/ 
+Windows executable files for regular applications can be found in Regular_Bin/ 
 
 The source code for Benchmark Mode is in srcBenchmark/
 
