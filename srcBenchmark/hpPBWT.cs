@@ -1,7 +1,7 @@
 ﻿/*
 Author: Kecong Tang (Benny) at University of Central Florida. 
 
-Core HP-PBWT modules, has my personal implemented sequential PBWT, and parallel PBWT.
+Core HP-PBWT modules, has my personally implemented sequential PBWT, and parallel PBWT.
 
 !!!Benchmark Mode!!!
 Note, this program has all the modules of our HP-PBWT, but it does not output any matches.
