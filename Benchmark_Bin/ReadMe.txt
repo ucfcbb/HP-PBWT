@@ -10,7 +10,7 @@ First Line(space dilimited):
   1. Number of sites to test.
   2. Number of threads to use, this depends on how many logic cores the machine has.
   3. Number of blocks to partition for L-Long match report. At least 2 to 3 times of number of threads. Feel free to try different numbers.
-  4. Maximal number of helper threads for reporting matches in each block. I recommend setting it to 80% of the number of threads, this may cause chaos if set it run.
+  4. Maximal number of helper threads for reporting matches in each block. I recommend setting it to 80% of the number of threads, this may cause chaos if set it wrong.
   5. Target length, in terms of number of sites.
   6. Run Sequential? 1 for yes; 0 for not.
   7. Run Parallel?  1 for yes; 0 for not.
