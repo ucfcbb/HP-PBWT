@@ -1,2 +1,2 @@
-Source code files for Regular PBWT (non benchmark mode)
+Source code files for Regular PBWT (non-benchmark mode)
 
