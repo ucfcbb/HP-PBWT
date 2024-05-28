@@ -15,6 +15,6 @@ The source code for Benchmark Mode is in srcBenchmark/
 The source code for regular applications is in srcRegular/
 
 
-#Dependencies
+# Dependencies
 The C# code can be compiled into a Linux executable from Visual Studios.
 This package is tested on Windows 10 and Windows Server 2022.
