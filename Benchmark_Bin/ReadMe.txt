@@ -1,6 +1,6 @@
 This directory contains the Windows executable file to create our Reporting L-Long Match benchmark result.
 This executable is made for benchmarking and has all the modules of our HP-PBWT, but it does not output any matches.
-Instead, it outputs the how long time for the sequential and parallel version to complete.
+Instead, it outputs how long it takes for the sequential and parallel versions to complete.
 
 A simple demonstration: HP-PBWT-BM.exe 1.cfg
 
@@ -18,12 +18,12 @@ First Line(space dilimited):
   9. VCF path, if yes for 8, a VCF path needs to be provided. 
           For using VCF file: 
             If you do not know how many sites are in the VCF, put 0 at parameter 1., this will trigger a scan to find out how many sites there are, this also takes time.
-            Meanwhile, if a number of sites is given at parameter 1., the program will run the site scan.
+            Meanwhile, if the number of sites is given at parameter 1., the program will run the site scan.
             If the provided number of sites is less than the extra site in the VCF, the program will only read the provided number of sites.
   10. Output directory. Leaving a space will make the output to the current directory.
 
 
-The second Line is a list of numbers of how many rounds you like to repeat an experiment.
+The second line is a list of the number of rounds you would like to repeat an experiment.
 The third line is how many haplotypes are in each experiment.
 
 
