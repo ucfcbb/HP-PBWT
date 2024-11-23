@@ -34,11 +34,11 @@ Compile and run C# in Linux:
    
 3. Build:
  
-   a.Create a directory (E.g. HP-PBWT).
+   a. Create a directory (E.g. HP-PBWT).
    
-   b.Download all the files from the source directory (source_IO_Included/ or source_IO_Excluded/) to the directory created in a.
+   b. Download all the files from the source directory (source_IO_Included/ or source_IO_Excluded/) to the directory created in a.
    
-   c.run "dotnet build --configuration Release" in the directory
+   c. Run "dotnet build --configuration Release" in the directory
    
 4. Run:
    
