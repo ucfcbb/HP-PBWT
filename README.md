@@ -36,7 +36,7 @@ To compile and run C# in Linux:
    
 4. Run:
    
-   The compiled executable file should be HP-PBWT/bin/Release/net8.0/HP-PBWT
+   The compiled executable file should be /bin/Release/net8.0/HP-PBWT
    
    The directory name depends on the dotnet version, "net8.0" for dotnet 8.0.
 
