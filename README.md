@@ -20,8 +20,8 @@ To compile and run C# in Linux:
 
 1. Install .NET SDK or .NET Runtime:
    
-   sudo apt-get update && \
-    sudo apt-get install -y dotnet-sdk-8.0
+   sudo apt-get update
+   sudo apt-get install -y dotnet-sdk-8.0
    
    Addational details could be found at https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet9&pivots=os-linux-ubuntu-2410
    
