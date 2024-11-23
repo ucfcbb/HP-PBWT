@@ -25,14 +25,14 @@ To compile and run C# in Linux:
    Addational details could be found at https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet9&pivots=os-linux-ubuntu-2410
    
 2. Build:
-3. 
+ 
    a.Create a directory (E.g. HP-PBWT).
    
    b.Download all the files from the source directory (source_IO_Included/ or source_IO_Excluded/) to the directory created in a.
    
    c.run "dotnet build --configuration Release" in the directory
    
-5. Run:
+3. Run:
    
    The compiled executable file should be HP-PBWT/bin/Release/net8.0/HP-PBWT
    
