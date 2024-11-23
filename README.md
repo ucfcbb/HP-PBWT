@@ -9,7 +9,7 @@ Durbin's PBWT can be found at https://github.com/richarddurbin/pbwt.
 
 Source Code files for general purposes can be found in source_IO_Included/ 
 
-Source Code files for IO-Exclude bencharmk can be found in source_IO_Excluded/
+Source Code files for IO-Excluded bencharmk can be found in source_IO_Excluded/
 
 
 
