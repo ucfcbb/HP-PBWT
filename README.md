@@ -19,12 +19,13 @@ Source Code files for IO-Exclude bencharmk can be found in source_IO_Excluded/
 To compile and run C# in Linux:
 
 1. Install .NET SDK or .NET Runtime:
+   
    sudo apt-get update && \
     sudo apt-get install -y dotnet-sdk-8.0
    
    Addational details could be found at https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet9&pivots=os-linux-ubuntu-2410
    
-2. Build:
+3. Build:
  
    a.Create a directory (E.g. HP-PBWT).
    
@@ -32,7 +33,7 @@ To compile and run C# in Linux:
    
    c.run "dotnet build --configuration Release" in the directory
    
-3. Run:
+4. Run:
    
    The compiled executable file should be HP-PBWT/bin/Release/net8.0/HP-PBWT
    
