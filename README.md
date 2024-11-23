@@ -7,9 +7,7 @@ HP-PBWT is a tool to parallel Durbin's PBWT's all vs all L-Long Matches and Set-
 
 Durbin's PBWT can be found at https://github.com/richarddurbin/pbwt.
 
-A quick demonstration can be found at Benchmark_Bin/ 
-
-Windows executable files for benchmark purposes can be found in Benchmark_Bin/ 
+ Code files for general purposes can be found in source_IO__Bin/ 
 
 Windows executable files for regular applications can be found in Regular_Bin/ 
 
