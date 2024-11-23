@@ -18,7 +18,7 @@ Source Code files for IO-Excluded bencharmk can be found in source_IO_Excluded/
 
 Compile and run C# in Linux:
 
-1. Install .NET SDK or .NET Runtime:
+1. Install .NET SDK:
 
    For Winodows:
 
