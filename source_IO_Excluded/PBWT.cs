@@ -247,33 +247,44 @@ namespace HP_PBWT
                             prvLowM_One = -1;
                             minOneSearch = false;
                         }
+                        // oneSite[oldPDA.pArr[seakIndex]
 
-                        //ToDo: minZero and minOne should only happen once
+                        //minZero and minOne should only happen once
+                        if (oneSite[oldPDA.pArr[s - 1]] == false)
+                        {
+                            prvLowM_One = int.MaxValue;
+                            minOneSearch = false;
+                        }
+                        else
+                        {
+                            prvLowM_Zero = int.MaxValue;
+                            minZeroSearch = false;
+                        }
 
-
+                        
                         //regular search
+
 
                         if (minZeroSearch)
                         {
 
-                            int seakIndex = s - 1;
+                            int seekIndex = s - 1;
                             //locate first upper zero
-                            //seakHID = oldPDA.pArr[seakIndex];
-
-                            while (seakIndex >= 0 && oneSite[oldPDA.pArr[seakIndex]] != false)
+                            //seekHID = oldPDA.pArr[seekIndex];
+                            while (seekIndex >= 0 && oneSite[oldPDA.pArr[seekIndex]] != false)
                             {
-                                seakIndex--;
+                                seekIndex--;
                             }
-                            if (seakIndex >= 0)
+                            if (seekIndex >= 0)
                             {//ToDo: may need to change
-                                prvLowM_Zero = oldPDA.mLens[oldPDA.pArr[seakIndex]];
-                                while (seakIndex >= 0 && oneSite[oldPDA.pArr[seakIndex]] == false)
+                                prvLowM_Zero = oldPDA.mLens[oldPDA.pArr[seekIndex]];
+                                while (seekIndex >= 0 && oneSite[oldPDA.pArr[seekIndex]] == false)
                                 {
-                                    prvLowM_Zero = Math.Min(oldPDA.mLens[oldPDA.pArr[seakIndex]], prvLowM_Zero);
-                                    seakIndex--;
+                                    prvLowM_Zero = Math.Min(oldPDA.mLens[oldPDA.pArr[seekIndex]], prvLowM_Zero);
+                                    seekIndex--;
                                 }
 
-                                if (seakIndex == -1)
+                                if (seekIndex == -1)
                                 {
                                     prvLowM_Zero = -1;
                                 }
@@ -283,77 +294,32 @@ namespace HP_PBWT
 
 
                         if (minOneSearch)
-                        {
-                            int seakIndex = s - 1;
+                        {//go through a block of one find the min
+                            int seekIndex = s - 1;
                             //locate first upper one
-                            while (seakIndex >= 0 && oneSite[oldPDA.pArr[seakIndex]] != true)
+                            while (seekIndex >= 0 && oneSite[oldPDA.pArr[seekIndex]] == false)
                             {
-                                seakIndex--;
+                                seekIndex--;
                             }
-                            if (seakIndex >= 0)
+                            if (seekIndex >= 0)
                             {
-                                prvLowM_One = oldPDA.mLens[oldPDA.pArr[seakIndex]];
-                                while (seakIndex >= 0 && oneSite[oldPDA.pArr[seakIndex]] == true)
+                                prvLowM_One = oldPDA.mLens[oldPDA.pArr[seekIndex]];
+                                while (seekIndex >= 0 && oneSite[oldPDA.pArr[seekIndex]] != false)
                                 {
-                                    prvLowM_One = Math.Min(oldPDA.mLens[oldPDA.pArr[seakIndex]], prvLowM_One);
-                                    seakIndex--;
+                                    prvLowM_One = Math.Min(oldPDA.mLens[oldPDA.pArr[seekIndex]], prvLowM_One);
+                                    seekIndex--;
                                 }
 
-                                if (seakIndex == -1)
+                                if (seekIndex == -1)
                                 {
                                     prvLowM_One = -1;
                                 }
                             }
                         }
 
-                        if (oneSite[oldPDA.pArr[s - 1]] == false)
-                        {
-                            prvLowM_One = int.MaxValue;
-                        }
-                        else
-                        {
-                            prvLowM_Zero = int.MaxValue;
-                        }
-                        //first row 
-
-                        if (oneSite[oldPDA.pArr[s - 1]] == oneSite[oldPDA.pArr[s]])
-                        {
-                            //match continue
-                            //incoming is 0
-                            if (oneSite[hID] == false)
-                            {
-                                newPDA.mLens[hID] = oldPDA.mLens[hID] + 1;
-                                prvLowM_One = int.MaxValue;
-                                prvLowM_Zero = Math.Min(prvLowM_Zero, oldPDA.mLens[hID]);
-                            }
-                            else//incoming is 1
-                            {
-                                newPDA.mLens[hID] = oldPDA.mLens[hID] + 1;
-                                prvLowM_Zero = int.MaxValue;
-                                prvLowM_One = Math.Min(prvLowM_One, oldPDA.mLens[hID]);
-                            }
-
-                        }
-                        else
-                        {
-                            //No match
-                            //incoming is 0
-                            if (oneSite[hID] == false)
-                            {
-                                newPDA.mLens[hID] = Math.Min(prvLowM_One, oldPDA.mLens[hID]) + 1;
-                                prvLowM_One = int.MaxValue;
-                                prvLowM_Zero = Math.Min(prvLowM_Zero, oldPDA.mLens[hID]);
-                            }
-                            else//incoming is 1
-                            {
-                                newPDA.mLens[hID] = Math.Min(prvLowM_Zero, oldPDA.mLens[hID]) + 1;
-                                prvLowM_Zero = int.MaxValue;
-                                prvLowM_One = Math.Min(prvLowM_One, oldPDA.mLens[hID]);
-                            }
-                        }
 
 
-                        for (int k = s + 1; k < e; k++)
+                        for (int k = s; k < e; k++)
                         {
 
                             hID = oldPDA.pArr[k];
