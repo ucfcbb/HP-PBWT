@@ -45,5 +45,9 @@ Compile and run C#:
    The compiled executable file should be /bin/Release/net8.0/HP-PBWT
    
    The directory name depends on the dotnet version, "net8.0" for dotnet 8.0.
+   
+## Citation
 
+The HP-PBWT method was presented at **ICCABS 2025**. The official proceedings are currently in production.  
 
+A preprint version is available on BioRxiv:  Tang, Kecong, et al. "Haplotype-based Parallel PBWT for Biobank Scale Data." bioRxiv (2025): 2025-02.
