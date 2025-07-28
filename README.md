@@ -51,3 +51,4 @@ Compile and run C#:
 The HP-PBWT method was presented at **ICCABS 2025**. The official proceedings are currently in production.  
 
 A preprint version is available on BioRxiv:  Tang, Kecong, et al. "Haplotype-based Parallel PBWT for Biobank Scale Data." bioRxiv (2025): 2025-02.
+https://www.biorxiv.org/content/10.1101/2025.02.04.636317v1
