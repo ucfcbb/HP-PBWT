@@ -59,9 +59,6 @@ In Computational Advances in Bio and Medical Sciences, 13th International Confer
 
 DOI: https://doi.org/10.1007/978-3-032-02489-3_10
 
-A preprint version of this work was previously available on bioRxiv (2025).
-
-
 ```
 @inproceedings{Tang2025HPPBWT,
   author    = {Tang, Kecong and Sanaullah, Ahsan and Zhi, Degui and Zhang, Shaojie},
@@ -73,3 +70,4 @@ A preprint version of this work was previously available on bioRxiv (2025).
   doi       = {10.1007/978-3-032-02489-3_10}
 }
 ```
+A preprint version of this work was previously available on bioRxiv (2025).
