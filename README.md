@@ -65,7 +65,7 @@ A preprint version of this work was previously available on bioRxiv (2025).
 ```
 @inproceedings{Tang2025HPPBWT,
   author    = {Tang, Kecong and Sanaullah, Ahsan and Zhi, Degui and Zhang, Shaojie},
-  title     = {Haplotype-Based Parallel PBWT},
+  title     = {Haplotype-Based Parallel PBWT for Biobank Scale Data},
   booktitle = {Computational Advances in Bio and Medical Sciences},
   series    = {ICCABS 2025, Revised Selected Papers},
   year      = {2025},
