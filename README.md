@@ -47,8 +47,14 @@ Compile and run C#:
    The directory name depends on the dotnet version, "net8.0" for dotnet 8.0.
    
 ## Citation
+The HP-PBWT method was formally published in the proceedings of ICCABS 2025.
 
-The HP-PBWT method was presented at **ICCABS 2025**. The official proceedings are currently in production.  
+Official publication:
+Kecong Tang, Ahsan Sanaullah, Degui Zhi, and Shaojie Zhang.
+Haplotype-based Parallel PBWT for Biobank Scale Data.
+In Computational Advances in Bio and Medical Sciences, 13th International Conference (ICCABS 2025), Revised Selected Papers. Springer Nature, 2025.
 
-A preprint version is available on BioRxiv:  Tang, Kecong, et al. "Haplotype-based Parallel PBWT for Biobank Scale Data." bioRxiv (2025): 2025-02.
-https://www.biorxiv.org/content/10.1101/2025.02.04.636317v1
+DOI: https://doi.org/10.1007/978-3-032-02489-3_10
+
+A preprint version of this work was previously available on bioRxiv (2025).
+
