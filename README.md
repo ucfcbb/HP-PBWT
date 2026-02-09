@@ -61,3 +61,15 @@ DOI: https://doi.org/10.1007/978-3-032-02489-3_10
 
 A preprint version of this work was previously available on bioRxiv (2025).
 
+
+```
+@inproceedings{Tang2025HPPBWT,
+  author    = {Tang, Kecong and Sanaullah, Ahsan and Zhi, Degui and Zhang, Shaojie},
+  title     = {Haplotype-Based Parallel PBWT},
+  booktitle = {Computational Advances in Bio and Medical Sciences},
+  series    = {ICCABS 2025, Revised Selected Papers},
+  year      = {2025},
+  publisher = {Springer Nature},
+  doi       = {10.1007/978-3-032-02489-3_10}
+}
+```
